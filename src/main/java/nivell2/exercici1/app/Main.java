@@ -12,7 +12,11 @@ public class Main {
 
         String word = "Hola";
         Integer number = 500;
+        Integer number2 = 333;
+        Integer number3 = 999;
 
         GenericMethods.printElements(word, number, person, person2, person3, person4);
+        System.out.println("\n");
+        GenericMethods.printElements(word, person3, number, number2, number3);
     }
 }
