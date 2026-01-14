@@ -1,4 +1,4 @@
-package nivell1.exercici1;
+package nivell1.exercici1.model;
 
 public class NoGenericMethods {
     private Object obj1;

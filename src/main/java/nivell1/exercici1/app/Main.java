@@ -1,4 +1,6 @@
-package nivell1.exercici1;
+package nivell1.exercici1.app;
+
+import nivell1.exercici1.model.NoGenericMethods;
 
 public class Main {
     public static void main(String[] args) {
