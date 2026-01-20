@@ -1,31 +1,31 @@
-# Tasca S1.06: Tipus Genèrics en Java
+# Task S1.06: Java Generics
 
-**Descripció**: Aquesta tasca aprofundeix en l'ús de tipus genèrics (Generics) en Java per crear codi reutilitzable, segur i net. El projecte evoluciona des de classes sense genèrics (basades en `Object`) fins a la implementació de mètodes genèrics complexos que combinen tipus fixos i paràmetres variables (Varargs).
+**Description**: This task delves into the use of Generic types (Generics) in Java to create reusable, type-safe, and clean code. The project evolves from non-generic classes (based on `Object`) to the implementation of complex generic methods combining fixed types and variable arguments (Varargs).
 
-## 📌 Enunciat del exercici
+## 📌 Exercise Statement
 
-El projecte es divideix en dos nivells de dificultat:
+The project is divided into two difficulty levels:
 
-### Nivell 1
-- **Exercici 1**: Crear una classe `NoGenericMethods` que emmagatzema tres objectes del mateix tipus sense utilitzar genèrics, demostrant la necessitat de fer càstings manuals.
-- **Exercici 2**: Crear una classe `Person` i un mètode genèric `printElements()` que accepti tres tipus de dades diferents en qualsevol ordre.
+### Level 1
+- **Exercise 1**: Create a `NoGenericMethods` class that stores three objects of the same type without using generics, demonstrating the necessity of manual casting.
+- **Exercise 2**: Create a `Person` class and a generic `printElements()` method that accepts three different data types in any order.
 
-### Nivell 2
-- **Aquest exercicis están fets a les mateixes classes, está indicat amb comentaris**
-- **Exercici 1 i 2**: Refinar el mètode genèric per admetre un argument fix (`String`), un argument genèric i un nombre variable d'arguments genèrics (`Varargs`), verificant la flexibilitat de la solució.
+### Level 2
+- **These exercises are implemented within the same classes; this is indicated by comments.**
+- **Exercise 1 & 2**: Refine the generic method to accept a fixed argument (`String`), a generic argument, and a variable number of generic arguments (`Varargs`), verifying the solution's flexibility.
 
-## ✨ Funcionalitats
-- **Tipificació segura**: Ús de genèrics per evitar errors de tipus en temps d'execució.
-- **Flexibilitat total**: Mètodes capaços de rebre qualsevol objecte (`Person`, `String`, `Integer`, etc.).
-- **Arguments variables**: Implementació de `Varargs` per processar llistes d'elements de longitud indefinida.
-- **Inferencia de tipus**: Aprofitament de la capacitat de Java per detectar automàticament els tipus de dades passats als mètodes.
+## ✨ Features
+- **Type Safety**: Use of generics to prevent type errors at runtime.
+- **Total Flexibility**: Methods capable of receiving any object (`Person`, `String`, `Integer`, etc.).
+- **Variable Arguments**: Implementation of `Varargs` to process lists of elements of indefinite length.
+- **Type Inference**: Leveraging Java's ability to automatically detect data types passed to methods.
 
-## 🛠 Tecnologies
-- **Llenguatge**: Java 17+
-- **Gestor de projectes**: Gradle / Maven
+## 🛠 Technologies
+- **Language**: Java 17+
+- **Build Tool**: Gradle / Maven
 - **IDE**: IntelliJ IDEA
 
-## 🚀 Instal·lació i Execució
-1. **Clonar el repositori**:
+## 🚀 Installation and Execution
+1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/el-teu-usuari/S1.06-Generics.git](https://github.com/el-teu-usuari/S1.06-Generics.git)
+   git clone [https://github.com/your-username/S1.06-Generics.git](https://github.com/your-username/S1.06-Generics.git)
